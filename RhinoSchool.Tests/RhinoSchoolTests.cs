@@ -94,7 +94,7 @@ namespace RhinoSchool.Tests
             Assert.IsNotNull(studentObj);
         }
 
-        List<Student> studentListData = new List<Student>();
+        List<string> studentListData = new List<string>();
 
         [Test]
         public void Save_DublicateItem_ThrowsException()
@@ -103,22 +103,33 @@ namespace RhinoSchool.Tests
 
             mockStudentRepository.Expect(d => d.Save(Arg<Student>.Is.NotNull)).WhenCalled((args) =>
             {
-                studentListData.Add((Student)args.Arguments[0]);
-            })
-              .Return(new Student());
-
-            var student = new Student();
+                var student =  (Student)args.Arguments[0];
+                string name = student.Name;
+                studentListData.Add((name));
+            }).Return(new Student { Email = "renu@gmail.com",  Name = "Renu" });
+            
 
             mockStudentRepository.Expect(d => d.Exist(null)).IgnoreArguments().Do((Func<string, bool>)((input) =>
             {
-                return studentListData.Contains(student);
+                return studentListData.Contains(input);
             }));
 
-            mockStudentRepository.Save(new Student { Email = "renu@gmail.com", Id = 1, Name = "Renu" });
+            CourseManager courseManager = new CourseManager(mockCourseCatalogRepository, mockStudentRepository);
+            var studentData = new Student
+            {
+                Name = "Renu",
+                Email = "renu@gmail.com"
+            };
 
-            Assert.IsNotNull(studentListData);
+            var courseData = new Course
+            {
+                CourseTitle = "Azure"
+            };
+           var studentObj = courseManager.ApplyForCourse(studentData, courseData);
+
+            Assert.IsNotNull(studentObj);
             Assert.IsTrue(studentListData.Count > 0);
-            //Assert.Throws<Exception>(() => mockStudentRepository.Save(new Student { Email = "renu@gmail.com", Name = "Renu" }));
+            Assert.Throws<Exception>(() => courseManager.ApplyForCourse(new Student {Name = "Renu" }, courseData));
         }
 
         [TestCase("Renu")]
