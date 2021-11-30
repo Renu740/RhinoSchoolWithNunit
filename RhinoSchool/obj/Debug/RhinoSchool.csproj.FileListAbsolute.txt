@@ -1,0 +1,6 @@
+D:\Ltts Trainning\UnitTesting\rahinoFreameworkUnitTest\RhinoSchool\bin\Debug\RhinoSchool.dll
+D:\Ltts Trainning\UnitTesting\rahinoFreameworkUnitTest\RhinoSchool\bin\Debug\RhinoSchool.pdb
+D:\Ltts Trainning\UnitTesting\rahinoFreameworkUnitTest\RhinoSchool\obj\Debug\RhinoSchool.csproj.AssemblyReference.cache
+D:\Ltts Trainning\UnitTesting\rahinoFreameworkUnitTest\RhinoSchool\obj\Debug\RhinoSchool.csproj.CoreCompileInputs.cache
+D:\Ltts Trainning\UnitTesting\rahinoFreameworkUnitTest\RhinoSchool\obj\Debug\RhinoSchool.dll
+D:\Ltts Trainning\UnitTesting\rahinoFreameworkUnitTest\RhinoSchool\obj\Debug\RhinoSchool.pdb

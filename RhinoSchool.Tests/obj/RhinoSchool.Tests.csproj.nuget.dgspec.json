@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool.Tests\\RhinoSchool.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool.Tests\\RhinoSchool.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool.Tests\\RhinoSchool.Tests.csproj",
+        "projectName": "RhinoSchool.Tests",
+        "projectPath": "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool.Tests\\RhinoSchool.Tests.csproj",
+        "packagesPath": "C:\\Users\\Renu\\.nuget\\packages\\",
+        "outputPath": "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Renu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {
+              "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool\\RhinoSchool.csproj": {
+                "projectPath": "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool\\RhinoSchool.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "RhinoMocks": {
+              "target": "Package",
+              "version": "[3.6.1, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool\\RhinoSchool.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool\\RhinoSchool.csproj",
+        "projectName": "RhinoSchool",
+        "projectPath": "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool\\RhinoSchool.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

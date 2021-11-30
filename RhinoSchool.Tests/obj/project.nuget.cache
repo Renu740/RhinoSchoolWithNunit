@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "1I6lj6teTSsmDQv9GRBGHm7YWB4wf2aEzMsK3t81+bkb7pv/95/j7Wmgt2fswtDFk7yCbS2oDDRjn5rfgaRxzQ==",
+  "success": true,
+  "projectFilePath": "D:\\Ltts Trainning\\UnitTesting\\rahinoFreameworkUnitTest\\RhinoSchool.Tests\\RhinoSchool.Tests.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Renu\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
+    "C:\\Users\\Renu\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",
+    "C:\\Users\\Renu\\.nuget\\packages\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
+    "C:\\Users\\Renu\\.nuget\\packages\\nunit3testadapter\\3.16.1\\nunit3testadapter.3.16.1.nupkg.sha512",
+    "C:\\Users\\Renu\\.nuget\\packages\\rhinomocks\\3.6.1\\rhinomocks.3.6.1.nupkg.sha512"
+  ],
+  "logs": []
+}
